@@ -1,0 +1,9 @@
+<span>Photo by <a href="https://unsplash.com/@alx_andru?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alex</a> on <a href="https://unsplash.com/s/photos/weather-landscape?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+
+background
+
+
+
+favicons' colour
+#007ce6

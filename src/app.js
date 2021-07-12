@@ -3,8 +3,10 @@ const express = require('express');
 const hbs = require('hbs');
 const app = express();  //it does not take any argument,
                         //instead we configure our server by using various methods provided by the application itself
+const port = process.env.PORT || 3000;
 const geocode = require('./utils/geocode.js');
 const forecast = require('./utils/forecast.js');
+
 
 
 
@@ -124,7 +126,8 @@ app.get('/products', (req,res)=>{
         queries: req.query
     });
 });
+
 //start the server
-app.listen(3000, ()=>{
+app.listen(port, ()=>{
     console.log('Server is up on port 3000');
 });
